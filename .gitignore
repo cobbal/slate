@@ -15,3 +15,4 @@ Slate.xcodeproj/xcuserdata/jigish.xcuserdatad/
 tmp
 doc/*.html
 .DS_Store
+.idea

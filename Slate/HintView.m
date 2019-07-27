@@ -76,6 +76,9 @@ static float hintIconAlpha = -1.0;
   NSSize size = [string sizeWithAttributes:attributes];
   NSPoint origin = NSMakePoint(rect.origin.x + (rect.size.width - size.width) / 2,
                                rect.origin.y + (rect.size.height - size.height) / 2);
+  CGContextRef ctx = [[NSGraphicsContext currentContext] graphicsPort];
+  NSColor * black = [NSColor colorWithCalibratedWhite:0 alpha:1.0];
+  CGContextSetShadowWithColor(ctx, CGSizeZero, 8.0, [black CGColor]);
   [string drawAtPoint:origin withAttributes:attributes];
 }
 
