@@ -46,6 +46,7 @@
 #import "NudgeOperation.h"
 #import "PushOperation.h"
 #import "JSInfoWrapper.h"
+#import "MouseOperation.h"
 
 @implementation Operation
 
@@ -222,6 +223,8 @@
     operation = [ShellOperation shellOperationFromString:opString];
   } else if ([op isEqualToString:UNDO]) {
     operation = [UndoOperation undoOperationFromString:opString];
+  } else if ([op isEqualToString:MOUSE]) {
+    operation = [MouseOperation mouseOperationFromString:opString];
   } else {
     SlateLogger(@"ERROR: Unrecognized operation '%@'", opString);
     @throw([NSException exceptionWithName:@"Unrecognized Operation" reason:[NSString stringWithFormat:@"Unrecognized operation '%@' in '%@'", op, opString] userInfo:nil]);
@@ -272,6 +275,8 @@
     operation = [ShellOperation shellOperation];
   } else if ([op isEqualToString:UNDO]) {
     operation = [UndoOperation undoOperation];
+  } else if ([op isEqualToString:MOUSE]) {
+    operation = [MouseOperation mouseOperation];
   } else {
     SlateLogger(@"ERROR: Unrecognized operation '%@'", op);
     @throw([NSException exceptionWithName:@"Unrecognized Operation" reason:[NSString stringWithFormat:@"Unrecognized operation '%@'", op] userInfo:nil]);

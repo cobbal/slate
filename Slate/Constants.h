@@ -217,6 +217,7 @@ extern NSString *const TOGGLE;
 extern NSString *const RELAUNCH;
 extern NSString *const SHELL;
 extern NSString *const UNDO;
+extern NSString *const MOUSE;
 
 // Parameters and Options
 extern NSString *const CENTER;

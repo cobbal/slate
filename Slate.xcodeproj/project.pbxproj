@@ -95,6 +95,7 @@
 		47C4A2D11384F3E10066B6DE /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C4A2D01384F3E10066B6DE /* Operation.m */; };
 		47C4A2D41384F4A60066B6DE /* MoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C4A2D31384F4A60066B6DE /* MoveOperation.m */; };
 		47C4A2D71384F5DE0066B6DE /* ExpressionPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C4A2D61384F5DE0066B6DE /* ExpressionPoint.m */; };
+		585951C14F1F2A20F446B4F8 /* MouseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58595095D3BBD77CD3A98D96 /* MouseOperation.m */; };
 		5EB99A0216A7526400760915 /* ASCIIToCode_Azerty.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB99A0116A7526400760915 /* ASCIIToCode_Azerty.plist */; };
 		7F44A9AA16621A9D00222908 /* ASCIIToCode_Colemak.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F44A9A916621A9D00222908 /* ASCIIToCode_Colemak.plist */; };
 		B3D087D0160577FB008A7FC6 /* status.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3D087CF160577FB008A7FC6 /* status.pdf */; };
@@ -287,6 +288,8 @@
 		47C4A2D31384F4A60066B6DE /* MoveOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MoveOperation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		47C4A2D51384F5DD0066B6DE /* ExpressionPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionPoint.h; sourceTree = "<group>"; };
 		47C4A2D61384F5DE0066B6DE /* ExpressionPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionPoint.m; sourceTree = "<group>"; };
+		58595095D3BBD77CD3A98D96 /* MouseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseOperation.m; sourceTree = "<group>"; };
+		58595849607DD6345B3E427B /* MouseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseOperation.h; sourceTree = "<group>"; };
 		5EB99A0116A7526400760915 /* ASCIIToCode_Azerty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ASCIIToCode_Azerty.plist; sourceTree = "<group>"; };
 		7F44A9A916621A9D00222908 /* ASCIIToCode_Colemak.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ASCIIToCode_Colemak.plist; sourceTree = "<group>"; };
 		B3D087CF160577FB008A7FC6 /* status.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = status.pdf; path = Slate/status.pdf; sourceTree = "<group>"; };
@@ -483,6 +486,8 @@
 				3B5B1B7B1665871D00D5B1B5 /* UndoOperation.m */,
 				3BF57C9C16216C2200C0F89B /* VisibilityOperation.h */,
 				3BF57C9D16216C2200C0F89B /* VisibilityOperation.m */,
+				58595849607DD6345B3E427B /* MouseOperation.h */,
+				58595095D3BBD77CD3A98D96 /* MouseOperation.m */,
 			);
 			name = Operation;
 			sourceTree = "<group>";
@@ -798,6 +803,7 @@
 				3BE0736B16AF735A00D33DB0 /* JSWrapperUtils.m in Sources */,
 				3BE0736E16AFB5CA00D33DB0 /* JSOperation.m in Sources */,
 				3B1E86EE16B3627A001B9090 /* JSOperationWrapper.m in Sources */,
+				585951C14F1F2A20F446B4F8 /* MouseOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

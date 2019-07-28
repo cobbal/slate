@@ -217,6 +217,7 @@ NSString *const TOGGLE = @"toggle";
 NSString *const RELAUNCH = @"relaunch";
 NSString *const SHELL = @"shell";
 NSString *const UNDO = @"undo";
+NSString *const MOUSE = @"mouse";
 
 // Parameters and Options
 NSString *const CENTER = @"center";
